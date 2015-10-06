@@ -1,7 +1,5 @@
 README 
 
-CS189 HW6 Neural Nets 
-
 The NeuralNet class has the following constructor: 
 	# Sizes is a list of layer sizes, including the input and output layers, each excluding the bias term. Loss function currently supports mean_squared_error and cross_entropy, both of which use their corresponding derivatives. 
 	nnet = NeuralNet([sizes], learning_rate, loss_function, max_iterations) 
